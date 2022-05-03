@@ -1,0 +1,97 @@
+/*main area*/
+#main {
+    background-color: #cccccc;
+    width: 60vw;
+    border: 2px solid black;
+    display: block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-align: justify;
+    margin: auto;
+    font-family: "Times New Roman";
+    margin-top: 30px;
+  }
+  
+  /* Headiing area */
+  #title {
+    text-align: center;
+    display: block;
+    margin: 20px 200px;
+    padding: 5px 0px;
+    background-color: black;
+    border: 2px solid black;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  /* image area */
+  
+  #img-div {
+    display: block;
+    justify-content: center;
+  }
+  
+  #image {
+    display: block;
+    width: 40%;
+    height: auto;
+    max-width: 100%;
+    margin: auto;
+    border-radius: 15px;
+  }
+  
+  #img-caption {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+  }
+  
+  #tribute-link {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .list {
+    text-align: center;
+    list-style-type: none;
+  }
+  
+  #read-more {
+    text-align: center;
+    color: black;
+  }
+  
+  @media (max-width: 500px) {
+    #title {
+        text-align: center;
+        display: block;
+        margin: 10px auto;
+        padding: 5px 0px;
+        font-size: 16px;
+        background-color: transparent;
+        border: 0em; 
+        font-weight: bold;
+        color: black;
+        text-decoration: underline;
+    }
+
+    #img-caption , .list{
+        font-size:14px;
+    }
+
+    #tribute-info p{
+        font-size:14px;
+    }
+  }
+  
+  @media (min-width: 1100px) and (max-width: 1200px) {
+    #title {
+      margin: 10 px 120 px;
+      padding: 10 px 0 px;
+    }
+  }
+  
